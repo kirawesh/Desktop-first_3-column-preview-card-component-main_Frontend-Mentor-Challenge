@@ -44,7 +44,7 @@ body {
 .columns {
   display: grid;
   grid-auto-flow: column;
-  grid-template: 1fr repeat(3);
+  grid-template: repeat(3, 1fr);
 }
 
 .col {
